@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./index.css" />
+    <title>stackoverflow</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar starts-->
+
+      <div class="navbar">
+        <div class="navbar-start">
+          <img src="./asssets/download.png" alt="stackoverflow" style="mix-blend-mode: multiply;"/>
+        </div>
+        <div class="navbar-center">
+          <input
+            type="text"
+            placeholder="Search Blog or Query"
+            class="input input-bordered w-full Search"
+            id="search"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="navbar-end">
+          <div class="askBtn">
+            <button class="btn btn-outline" id="write">Write or ask</button>
+          </div>
+          <div class="login">
+            <button class="btn btn-outline" id="logout">Signout</button>
+          </div>
+        </div>
+        <div class="form-control">
+          <label id="uemail"></label>
+        </div>
+      </div>
+      <div class="blog-section" id="post">
+        <h1 class="postHead">All Post</h1>
+      </div>
+    </div>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
